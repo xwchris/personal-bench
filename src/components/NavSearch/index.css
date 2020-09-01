@@ -1,0 +1,35 @@
+.box {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  fill: rgba(0, 0, 0, .54);
+  transition: fill .3s ease;
+}
+
+.icon.showIcon, .icon:hover {
+  fill: rgba(0, 0, 0, .84);
+}
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, .54);
+}
+
+.input {
+  width: 0;
+  border: 0;
+  font-size: 15px;
+  line-height: 24px;
+  outline: 0;
+  background-color: transparent;
+  transition: width .3s ease;
+}
+
+.input.showInput {
+  width: 150px;
+}

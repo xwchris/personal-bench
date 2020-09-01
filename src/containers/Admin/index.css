@@ -1,0 +1,12 @@
+.box {
+  display: flex;
+  background-color: #f0f2f5;
+}
+
+.aside {
+  width: 220px;
+}
+
+.container {
+  flex: 1;
+}

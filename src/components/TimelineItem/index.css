@@ -1,0 +1,17 @@
+.box {
+  padding-right: 160px;
+}
+
+.month {
+  display: inline-block;
+  width: 100px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 2;
+  border-right: 4px solid rgba(0, 0, 0, .84);
+  color: rgba(0, 0, 0, .84);
+}
+
+.date {
+  padding-left: 100px;
+}

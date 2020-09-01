@@ -1,0 +1,19 @@
+.title {
+  text-align: center;
+  color: rgba(0, 0, 0, .84);
+  font-size: 28px;
+}
+
+.image {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+.info {
+  margin-top: 10px;
+  color: rgba(0, 0, 0, .54);
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}

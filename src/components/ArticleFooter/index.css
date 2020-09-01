@@ -1,0 +1,29 @@
+.box {
+  margin-top: 32px;
+}
+
+.box::after {
+  content: '';
+  display: block;
+  clear: both
+}
+
+.link {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, .64);
+  text-decoration: none;
+  transition: text-decoration .3s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}

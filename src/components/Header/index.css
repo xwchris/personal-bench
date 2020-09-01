@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 65px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 48px;
+  color: rgba(0, 0, 0, .84);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, .54);
+}

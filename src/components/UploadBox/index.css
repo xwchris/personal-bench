@@ -1,0 +1,62 @@
+.uploadBox {
+  display: block;
+  border: 3px dashed #1890ff;
+  border-radius: 4px;
+  height: 200px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.uploadBox:hover {
+  opacity: .7;
+}
+
+.input {
+  display: none;
+}
+
+.text {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1890ff;
+  text-align: center;
+  line-height: 200px
+}
+
+.imageBox {
+  position: relative;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.image {
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mask {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 200px;
+  background-color: rgba(0, 0, 0, .7);
+  transform: translateY(100%);
+  transition: transform .3s ease;
+}
+
+.imageBox:hover .mask {
+  transform: translateY(0);
+}
+
+.deleteBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

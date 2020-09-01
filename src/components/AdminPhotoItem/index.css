@@ -1,0 +1,44 @@
+.box {
+  display: flex;
+  margin-bottom: 32px;
+  height: 200px;
+}
+
+.editBox {
+  flex: 1;
+}
+
+.img {
+  margin-right: 60px;
+  height: 100%;
+  width: 340px;
+  background-position: center;
+  background-size: cover;
+}
+
+.info {
+  margin-right: 40px;
+  flex: 1;
+  color: rgba(0, 0, 0, .54);
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.text {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.desc {
+  text-indent: 5em;
+  word-break: break-all;
+}
+
+.btn {
+  display: block;
+}
+
+.deleteBtn {
+  margin-top: 30px;
+}

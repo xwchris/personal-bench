@@ -1,0 +1,27 @@
+.box {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: "tnum";
+  position: relative;
+  background: #fff;
+  border-radius: 2px;
+  transition: all .3s;
+}
+
+.header {
+  padding: 16px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0,0,0,.85);
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.body {
+  padding: 24px;
+}

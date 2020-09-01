@@ -1,0 +1,36 @@
+.btn {
+  display: inline-block;
+  min-width: 48px;
+  padding: 0 12px;
+  font-size: 14px;
+  line-height: 24px;
+  border-radius: 2px;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: opacity .3s ease;
+  border-color: rgba(0, 0, 0, .34);
+  color: rgba(0, 0, 0, .84);
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+.btn.primary {
+  background-color: #1890ff;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.btn.danger {
+  background-color: #ff4d4f;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.btn.big {
+  width: 80px;
+  height: 40px;
+}

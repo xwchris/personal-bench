@@ -1,0 +1,60 @@
+.box {
+  display: flex;
+}
+
+.upload {
+  flex: 1;
+}
+
+.image {
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(0, 0, 0, .2)
+}
+
+.flexBox {
+  position: relative;
+  padding: 0 24px;
+  flex: 1;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.btns {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.mr8 {
+  margin-right: 8px;
+}
+
+.input {
+  padding: 4px 8px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, .2);
+  width: 100%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, .84);
+  outline: none;
+}
+
+.textarea {
+  padding: 16px;
+  resize: none;
+  height: 136px;
+  outline: none;
+}
+
+.text {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, .54);
+}

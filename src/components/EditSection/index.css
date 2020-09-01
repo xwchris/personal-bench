@@ -1,0 +1,122 @@
+.box {
+  color: rgba(0, 0, 0, .84);
+  padding-top: 48px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  padding: 0 24px;
+  height: 48px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  background-color: #ffffff;
+}
+
+.headerText {
+  flex: 1;
+  font-size: 20px;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  border: 1px solid transparent;
+  padding: 0;
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  background-color: transparent;
+  transition: opacity .3s ease;
+  border-radius: 4px;
+  outline: none;
+}
+
+.btn:hover {
+  opacity: .7;
+}
+
+.saveBtn {
+  margin-right: 20px;
+  background-color: #1890ff;
+  color: #ffffff;
+}
+
+.cancelBtn {
+  border-color: #1890ff;
+  color: #1890ff;
+}
+
+
+.title, .abstract, .content {
+  border: 0;
+  resize: none;
+  outline: none;
+  padding: 20px 24px;
+}
+
+.cover {
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.title {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  font-size: 24px;
+  line-height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.abstract {
+  display: block;
+  font-size: 16px;
+  width: 100%;
+  line-height: 1.5;
+  height: 48px;
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.editBox {
+  flex: 1;
+  display: flex;
+  height: calc(100vh - 270px);
+}
+
+.content, .target {
+  height: 100%;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.target {
+  padding: 20px 24px;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+  border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.mr12 {
+  margin-right: 12px;
+}
+
+.saveText {
+  margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #777777;
+}

@@ -1,0 +1,40 @@
+.image {
+  padding-bottom: 61.8%;
+  background-size: cover;
+  background-position: center;
+}
+
+.desc {
+  padding: 16px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, .84);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 12px;
+}
+
+.footerItem {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcon {
+  margin-right: 8px;
+  fill: rgba(0, 0, 0, .54);
+  width: 14px;
+  height: 14px;
+}
+
+.footerText {
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, .54);
+}

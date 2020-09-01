@@ -1,0 +1,43 @@
+.box {
+  text-align: center;
+  font-size: 0;
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.input {
+  height: 48px;
+  padding: 0 60px 0 20px;
+  width: 250px;
+  font-size: 18px;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, .24);
+
+  outline: none;
+  transition: all .3s ease;
+}
+
+.input:focus {
+  border-color: rgba(0, 0, 0, .64);
+}
+
+.icon {
+  position: absolute;
+  right: 20px;
+  width: 26px;
+  top: 50%;
+  fill: rgba(0, 0, 0, .44);
+  transform: translateY(-50%)
+}
+
+.icon:hover {
+  fill: rgba(0, 0, 0, .64);
+}
+
+
+.input:focus + .icon {
+  fill: rgba(0, 0, 0, .64);
+}
